@@ -1,0 +1,36 @@
+# generated types
+.astro/
+
+# dependencies
+node_modules/
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# environment variables - IMPORTANT: Never commit these!
+.env
+.env.*
+.env.production
+
+# macOS-specific files
+.DS_Store
+
+# jetbrains setting folder
+.idea/
+
+# Proxy binaries and source (contains sensitive API handling)
+proxy/
+
+# Source files (for public repo, only share dist)
+src/
+scripts/
+public/
+
+# Local development files
+*.log
+dana-font.zip
+
+# Note: dist/ folder IS tracked for deployment
